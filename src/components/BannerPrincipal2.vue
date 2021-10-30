@@ -18,10 +18,14 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
+          .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/banner-bus.svg")
           .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/banner-camion.svg")
           .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/banner-avion.svg")
-          //.imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/banner-bus.svg")
-          
+          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/covid1.svg")
+          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/covid1.svg")
+          .imagen_flotante.imagen_flotante_6: img(src="@/assets/curso/covid1.svg")
+          .imagen_flotante.imagen_flotante_7: img(src="@/assets/curso/covid1.svg")
+          .imagen_flotante.imagen_flotante_8: img(src="@/assets/curso/covid1.svg")
 
 </template>
 
@@ -114,31 +118,92 @@ export default {
   position: relative
 .imagen_flotante
   &_3
-    animation: avion 15s infinite
+    animation: avion 18s infinite
     position: absolute
     top: 25px
-    left: -30%
+    left: -10%
   &_1
-    animation: camion 10s infinite
+    animation: camion 5s infinite
     position: absolute
-    top: 90%
-    left: 0px
-    width: 400px
+    width: 425px
+    top: 250px
+    left: -140%
   &_2
-    animation: float2 6s ease-in-out infinite
-    top: 45px
-    left: 0px
+    animation: bus 10s infinite
     position: absolute
+    width: 360px
+    top: 210px
+    left: -140%
 
+  &_4
+    animation: covid1 8s infinite
+    position: absolute
+    width: 70px
+    top: 280px
+    left: 80%
+    opacity: 1
+  &_5
+    animation: covid1 9s infinite
+    position: absolute
+    width: 60px
+    top: 200px
+    left: 60%
+    opacity: 1
+  &_6
+    animation: covid1 7s infinite
+    position: absolute
+    width: 80px
+    top: 260px
+    left: 0%
+    opacity: 1
+  &_7
+    animation: covid1 7s infinite
+    position: absolute
+    width: 60px
+    top: 180px
+    left: 35%
+    opacity: 1
+  &_8
+    animation: covid1 7s infinite
+    position: absolute
+    width: 70px
+    top: 280px
+    left: -35%
+    opacity: 1
+
+@keyframes covid1
+  from
+    top: -20px
+    opacity: 0
+    width: 40px
 @keyframes camion
 	from
-    left: 76%
+    left: 15%
 @keyframes avion
 	from
     left: 76%
+@keyframes bus
+  0%
+    left: 20%
+  20%
+    left: -10%
+  40%
+    left: -10%
+  50%
+    left: -10%
+  100%
+    left: -140%
 
 
 
+@media (min-width: $bp-min-xxl)
+  .imagen_flotante
+    &_1
+      top: 285px
+      left: -140%
+    &_2
+      top: 260px
+      left: -140%
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none
