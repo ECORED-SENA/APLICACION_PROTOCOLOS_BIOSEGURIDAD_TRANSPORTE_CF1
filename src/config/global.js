@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Concepto y regulación',
     descripcionCurso:
       'En el marco de la pandemia del coronavirus COVID-19, se han establecido condiciones para hacer frente a esta crisis sanitaria e impedir la extensión de sus efectos, por lo tanto, se hace indispensable conocer los aspectos fundamentales de esta enfermedad y las disposiciones establecidas en materia de regulación, a nivel general y en el sector transporte.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal2.png'),
+    fondoContenido: require('@/assets/curso/banner-contenido.png'),
   },
   menuPrincipal: {
     menu: [

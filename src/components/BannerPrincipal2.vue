@@ -1,16 +1,16 @@
 <template lang="pug">
 .banner-principal
-  
-  .container.degrade.tarjeta
-    
-    .row.banner-principal__row(
-      :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
-    )
+  .container.tarjeta(
+    :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
+  )
+    .row.banner-principal__row
+      img.fondo-contenido(:src="globalData.fondoContenido")
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
-        .banner-principal__descripcion
-          p.mb-0(v-html="globalData.descripcionCurso")
+        .col-lg-8
+          .banner-principal__descripcion
+            p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
@@ -18,13 +18,11 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          img.banner-img1(:src="globalData.imagenBannerPrincipal")
-          img.banner-img2(:src="globalData.imagenBannerPrincipal2")
-          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante-1.svg")
-          .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotante-2.svg")
-          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante-3.svg")
-          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante-4.svg")
+          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/banner-camion.svg")
+          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/banner-avion.svg")
+          //.imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/banner-bus.svg")
           
+
 </template>
 
 <script>
@@ -41,52 +39,14 @@ export default {
 </script>
 
 <style lang="sass">
-.banner-img1
+.fondo-contenido
   position: absolute
-  top 0%
-  -webkit-backface-visibility: hidden
-  animation: fade 10s ease-in infinite
-  animation-direction: alternate
-@keyframes fade
-  0%
-    opacity: 1
-  33%
-    opacity: 0
-  66%
-    opacity: 1
-  100%
-    opacity: 0
-.banner-img2
-  -webkit-backface-visibility: hidden
-  animation: fade2 10s ease-out infinite
-  animation-direction: alternate
-@keyframes fade2
-  0%
-    opacity: 0
-  33%
-    opacity: 1
-  66%
-    opacity: 0
-  100%
-    opacity: 1
-
-
-.banner-principal__row
-  background-size: cover
-  background-position: center
-.banner-principal .degrade
-  background: linear-gradient(-45deg, #2DF0DA, #45C6E5, #2DF0DA)
-  background-size: 200% 200% !important
-  animation: gradient 6s ease infinite
-  animation-direction: alternate
-@keyframes gradient
-  0%
-		background-position: 0% 50%
-  50%
-    background-position: 100% 50%
-  100%
-    background-position: 0% 50%
-
+  padding: 0px
+  z-index: 2
+  height: 100%
+  width: 100%
+.banner-principal__info
+  z-index: 3
 
 
 .banner-principal
@@ -148,53 +108,38 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
+
+
 .contenedor-imagenes
   position: relative
-
 .imagen_flotante
-  &_1
-    animation: float1 5s ease-in-out infinite
-    position: absolute
-    top: 26%
-    left: 9%
-    width: 75px
-  &_2
-    animation: float2 5s ease-in-out infinite
-    position: absolute
-    top: 12%
-    left: 73%
-    width: 75px
   &_3
-    animation: float2 5s ease-in-out infinite
+    animation: avion 15s infinite
     position: absolute
-    top: 70%
-    left: 19%
-    width: 75px
-  &_4
-    animation: float3 5s ease-in-out infinite
+    top: 25px
+    left: -30%
+  &_1
+    animation: camion 10s infinite
     position: absolute
-    top: 62%
-    left: 73%
-    width: 75px
-@keyframes float1
-	0%
-  	transform: translatex(20px)
-	50%
-		transform: translatex(0px)
-	100%
-		transform: translatex(20px)
-@keyframes float2
-	0%
-  	transform: translatey(0px)
-	50%
-		transform: translatey(-20px)
-	100%
-		transform: translatey(s0px)
-@keyframes float3
-	0%
-  	transform: translatex(0px)
-	50%
-		transform: translatex(-20px)
-	100%
-		transform: translatex(s0px)
+    top: 90%
+    left: 0px
+    width: 400px
+  &_2
+    animation: float2 6s ease-in-out infinite
+    top: 45px
+    left: 0px
+    position: absolute
+
+@keyframes camion
+	from
+    left: 76%
+@keyframes avion
+	from
+    left: 76%
+
+
+
+@media (max-width: $bp-max-md)
+  .fondo-contenido
+    display: none
 </style>
