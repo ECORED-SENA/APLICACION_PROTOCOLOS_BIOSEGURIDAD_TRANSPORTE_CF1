@@ -3,7 +3,7 @@
   .container.tarjeta(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row
+    .row.banner-principal__row.fondo-contenido2
       img.fondo-contenido(:src="globalData.fondoContenido")
       .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
@@ -207,4 +207,8 @@ export default {
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none
+  .fondo-contenido2
+    background-image: url(../assets/curso/banner-contenido2.png)
+    background-repeat: no-repeat
+    background-size: cover
 </style>
