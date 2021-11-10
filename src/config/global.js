@@ -125,7 +125,7 @@ export default {
       referencia:
         'García, O., G. (2021). Efectos del Covid-19 en el transporte terrestre de carga en 2020.',
       link:
-        'https://www.medigraphic.com/pdfs/revhabciemed/hcm-2020/hcm202e.pdf',
+        'https://www.imt.mx/archivos/Publicaciones/PublicacionTecnica/pt628.pdf',
     },
     {
       referencia:
@@ -150,7 +150,7 @@ export default {
     },
     {
       referencia:
-        'Organización Internacional del Trabajo. (2020). La Covid-19 y los servicios de transporte urbano de pasajeros. O',
+        'Organización Internacional del Trabajo. (2020). La Covid-19 y los servicios de transporte urbano de pasajeros.',
       link:
         'https://www.ilo.org/wcmsp5/groups/public/---ed_dialogue/---sector/documents/briefingnote/wcms_760415.pdf',
     },
@@ -179,7 +179,7 @@ export default {
         'conjunto de medidas que tienen como fin eliminar o minimizar el factor de riesgo biológico que pueda llegar a afectar la salud, el medio ambiente o la vida de las personas.',
     },
     {
-      termino: 'Comorbilidad ',
+      termino: 'Comorbilidad',
       significado:
         'significa que se cuenta con más de una enfermedad o condición de salud y estas pueden o no estar relacionadas entre sí.',
     },
@@ -201,12 +201,12 @@ export default {
     {
       termino: 'Pandemia',
       significado:
-        'propagación a escala mundial y gran velocidad de una enfermedad que afecta simultáneamente a un gran número de personas.',
+        'propagación a escala mundial y a gran velocidad de una enfermedad que afecta simultáneamente a un gran número de personas.',
     },
     {
       termino: 'Transmisión',
       significado:
-        'mecanismo por el cual un agente infeccioso se propaga a un organismo susceptible, en el caso de la enfermedad causada por el COVID 19 la transmisión se da por contacto con mucosas y por vía aérea mediante gotas.',
+        'mecanismo por el cual un agente infeccioso se propaga a un organismo susceptible; en el caso de la enfermedad causada por el COVID-19 la transmisión se da por contacto con mucosas y por vía aérea mediante gotas.',
     },
     {
       termino: 'Virus',
@@ -223,8 +223,7 @@ export default {
     {
       texto: 'MinSalud. (2020). Abecé coronavirus. ',
       tipo: 'Artículo',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ET/abece-coronavirus.pdf',
+      descarga: '/downloads/abece-coronavirus.pdf',
     },
     {
       texto:
@@ -235,14 +234,13 @@ export default {
     {
       texto: 'MinSalud. (2021). ABECÉ de la vacunación contra la COVID-19. ',
       tipo: 'Artículo',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/abece-vacunacion-contra-covid19.pdf',
+      descarga: '/downloads/abece-vacunacion-contra-covid19.pdf',
     },
     {
       texto:
         'Asociación Colombiana de Infectología. (2020). Diagnóstico y manejo de la infección por SARS-CoV-2/COVID-19 en establecimientos de atención de la salud. ',
-      tipo: 'Artículo asociación colombiana de Infectología',
-      link: 'https://www.acin.org/images/guias/coronavirus/consenso_pdf.pdf',
+      tipo: 'Artículo',
+      descarga: '/downloads/consenso_pdf.pdf',
     },
     {
       texto:

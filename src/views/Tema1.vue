@@ -270,7 +270,9 @@
       .col-md-10.p-md-0.p-4
         .row.align-items-center.py-2
           .col-md-7.mb-4.mb-md-0
-            p.mb-0 En términos generales, se logra mitigar la transmisión a través de medidas farmacológicas como la vacunación, y no farmacológicas como 
+            p.mb-0 En términos generales, se logra mitigar la transmisión a través de medidas farmacológicas como 
+              strong la vacunación
+              |, y no farmacológicas como 
               strong las medidas de bioseguridad, 
               | las que deben asumirse como prácticas de 
               strong autocuidado.
@@ -381,13 +383,13 @@
       .h2 1.4  Impacto 
 
     .row.mb-4
-      .col-md-6.mb-4(data-aos="fade-right")
+      .col-lg-6.mb-4(data-aos="fade-right")
         p.mb-3 Con lo visto hasta el momento, y de acuerdo con lo promulgado por diversidad de autores e instituciones, la pandemia causada por el COVID-19, 
           strong ha afectado negativamente la economía global, y el sector transporte no ha sido la excepción, 
           | la pandemia ha traído consecuencias sin precedentes para este sector de la economía. Algunas empresas se han declarado en quiebra, otras optaron por el recorte de personal.
         .cajon-amarillo.p-4.px-md-5
           p.mb-0 Las medidas que se han establecido alrededor del mundo tuvieron mayor impacto en el transporte por vía aérea, según el DANE, para este sector la afectación en el PIB se registró en las actividades de transporte aéreo, con una caída aproximada del 75 %, por otro lado, en el transporte terrestre fue del 28 % y para el caso del transporte marítimo del 24 %.
-      .col-md-6.mb-4(data-aos="fade-left")
+      .col-lg-6.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1-4-img.png', alt='Texto que describa la imagen')
 
