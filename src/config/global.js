@@ -268,17 +268,17 @@ export default {
       },
       {
         nombre: 'Paula Daniela Díaz León',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro: 'CENIGRAF <br>Regional Distrito Capital',
       },
       {
         nombre: 'María Inés Machado López',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisora Metodológica y Pedagógica',
+        cargo: 'Revisora metodológica y pedagógica',
         centro:
           'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
       },
