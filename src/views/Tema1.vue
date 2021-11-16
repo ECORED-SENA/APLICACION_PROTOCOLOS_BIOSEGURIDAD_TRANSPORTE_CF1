@@ -420,8 +420,7 @@
               h3 Transporte terrestre
               h4 Transporte de carga
               p Esta pandemia ha afectado el proceso de distribución de mercancías y paralelamente el flujo de camiones sobre la carretera, alcanzando efectos nunca vistos en el tránsito de camiones de carga.
-                br
-                |La importancia de este modo radica en el alto nivel de accesibilidad a todas las regiones y la flexibilidad del servicio puerta a puerta en tiempos de pandemia, además que el modo terrestre es el que mueve gran parte de la mercancía del país.
+              p La importancia de este modo radica en el alto nivel de accesibilidad a todas las regiones y la flexibilidad del servicio puerta a puerta en tiempos de pandemia, además que el modo terrestre es el que mueve gran parte de la mercancía del país.
               p Muchas empresas de transporte de carga tuvieron que parar totalmente sus actividades, especialmente las mipymes.
             .col-md-6
               figure
@@ -436,7 +435,7 @@
                 img(src='@/assets/curso/tema1-4-slide3.png', alt='Impacto')
           .row.mb-3
             .col-md-6.mb-4.mb-md-0
-              p Debido a las limitaciones en la movilidad ocasionadas por la pandemia, a partir del mes de marzo de 2020 se evidenció un significativo decrecimiento de los despachos de pasajeros, en razón a la restricción de la operación en las terminales de transporte, alcanzando de esta forma en el mes de abril, cifras mínimas históricas en despachos: “En el año 2019 se despacharon 14.865.856 vehículos de transporte intermunicipal desde las terminales de transporte a nivel nacional, presentando una disminución del 52,9 % para el año 2020 respecto al año anterior, con un total de 6.918.113 de despachos, así mismo, el número de pasajeros, despachados desde terminales de transporte en el año 2019 fue de 136.219.925, mientras que para el año 2020 el reporte fue de 45.621.008, lo que representó una disminución total de 66.50 %”.
+              p Debido a las limitaciones en la movilidad ocasionadas por la pandemia, a partir del mes de marzo de 2020 se evidenció un significativo decrecimiento de los despachos de pasajeros, en razón a la restricción de la operación en las terminales de transporte, alcanzando de esta forma en el mes de abril, cifras mínimas históricas en despachos: “En el año 2019 se despacharon 14.865.856 vehículos de transporte intermunicipal desde las terminales de transporte a nivel nacional, presentando una disminución del 52,9 % para el año 2020 respecto al año anterior, con un total de 6.918.113 de despachos, así mismo, el número de pasajeros, despachados desde terminales de transporte en el año 2019 fue de 136.219.925, mientras que para el año 2020 el reporte fue de 45.621.008, lo que representó una disminución total del 66,50 %”.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema1-4-slide4.png', alt='Impacto')
