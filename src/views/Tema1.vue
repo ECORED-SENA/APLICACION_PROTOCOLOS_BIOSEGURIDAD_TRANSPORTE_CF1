@@ -8,17 +8,23 @@
         span 1
       h1 Conceptualización sobre el COVID-19
 
-    .row
+    .row.mb-4
       .col-md-7.mb-4(data-aos="fade-right")
         p El 
           strong COVID-19, 
           | una enfermedad causada por el nuevo coronavirus, conocido como 
           strong SARS-CoV-2, 
           | se identificó en Wuhan (China) a finales del año 2019 en personas con neumonía severa y fue declarado pandemia por la Organización Mundial de la Salud (OMS) debido a su gravedad y velocidad de expansión alrededor del mundo, provocando una gran crisis económica, social y de salud. En Colombia fue confirmado el primer caso el 6 de marzo de 2020.
-      .col-md-5(data-aos="fade-left")
+      .col-md-5.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1-img.png', alt='Texto que describa la imagen') 
 
+    .row.justify-content-center.tarjeta.fondo-elementos.py-5(data-aos="fade-down") 
+      .col-md-10
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/y5atKVtpS7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    
     Separador
 
 
