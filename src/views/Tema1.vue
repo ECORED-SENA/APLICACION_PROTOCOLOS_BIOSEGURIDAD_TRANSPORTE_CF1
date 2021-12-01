@@ -77,7 +77,7 @@
               .row.justify-content-between.align-items-center
                 .col.col-md-9.mb-3.mb-sm-0
                   h3.mb-1 Explicación de la enfermedad
-                  p.mb-0.text-small Le invitamos a consultar el video explicativo sobre la enfermedad, contagio y atención del Ministerio de Salud y Seguridad Social en el siguiente enlace:
+                  p.mb-0.text-small Le invitamos a consultar el video explicativo sobre la enfermedad, contagio y atención del Ministerio de Salud y Protección Social en el siguiente enlace:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=jFRFkncM0lk')" target="_blank")
                     span Enlace
@@ -171,7 +171,7 @@
               img(src='@/assets/curso/tema1-2-ico3.svg', alt='Dolor de cabeza')
             .col-md-8
               h5 Dolor de cabeza
-              p.mb-0 Sugiere ser por la acción del sistema inmunitario ante la infección por el COVID-19.
+              p.mb-0 Ocurre por la acción del sistema inmunitario ante la infección por el COVID-19.
       .col-md-6.d-flex.align-items-stretch
         .col-md-12.borde-top
           .row.justify-content-center.p-4

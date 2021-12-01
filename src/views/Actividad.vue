@@ -11,7 +11,7 @@
           figure.px-lg-5
             img.px-lg-2.py-lg-4(src="@/assets/curso/act-didactica.svg", alt="Elementos de la cultura organizacional que corresponden a la cultura organizacional?")
       .col-12.col-md-8.col-lg-9.mb-lg-5(data-aos="fade-left")
-        .col-lg-6.mb-lg-5.mb-3 
+        .col-lg-12.mb-lg-5.mb-3 
           p Estimular en el aprendiz el conocimiento acerca de los síntomas por COVID-19, facilitando su aprendizaje y recordación.
         .tarjeta.color-acento-contenido.p-2
           .row.justify-content-around.align-items-center            
@@ -31,7 +31,7 @@
           figure.px-lg-5
             img.px-lg-2.py-lg-4(src="@/assets/curso/act-didactica2.svg", alt="Elementos de la cultura organizacional que corresponden a la cultura organizacional?")
       .col-12.col-md-8.col-lg-9.mb-lg-5(data-aos="fade-left")
-        .col-lg-6.mb-lg-5.mb-3 
+        .col-lg-12.mb-lg-5.mb-3 
           p Afianzar en el aprendiz el contenido del componente formativo: concepto y regulación.
         .tarjeta.color-acento-contenido.p-2
           .row.justify-content-around.align-items-center            

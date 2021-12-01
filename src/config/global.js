@@ -365,6 +365,11 @@ export default {
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
+      },
     ],
   },
   // creditosInicio: [
